@@ -24,7 +24,7 @@ mirai.banDevice=Hiện tại thiết bị của bạn đã bị ban khỏi Bot J
 mirai.keyNotSameFormat=Dữ liệu bạn nhập phải là một dãy số bao gồm 6 chữ số!
 mirai.codeInputExpired=Code bạn nhập không trùng khớp hoặc đã hết hạn!
 mirai.unbanDeviceSuccess=Facebook ID của bạn đã được gỡ ban, hãy khởi động lại để có thể tiếp tục sử dụng KRYSTAL BOT!!!
-mirai.userBanned=Bạn đã bị ban khỏi Bot KRYSTAL vào lúc %1 với lý do: %2.\nVui lòng liên hệ ADMIN qua:\n📌FB: Https://www.facebook.com/100018277053087. để biết thêm chi tiết!
+mirai.userBanned=Bạn đã bị ban khỏi Bot KRYSTAL vào lúc %1 với lý do: %2.\nVui lòng liên hệ ADMIN qua:\n📌FB: Https://www.facebook.com/61573211038362. để biết thêm chi tiết!
 mirai.finishCheckListGban=Đã kiểm tra xong danh sách BANNED
 mirai.handleListenError=handleListener đã xảy ra một số lỗi, lỗi: %1
 mirai.warningSourceCode=\nKRYSTAL BOT update complete!!!
@@ -101,4 +101,4 @@ handleSchedule.exectuteError=Đã xảy ra lỗi trong lúc schedule tại modul
 
 # utils/index.js
 
-utils.throwError= » Dùng lệnh sai rồi bạn ơi vui lòng sử dụng %1help %2 để biết thêm hướng dẫn sử dụng bot.\nNếu bạn thấy khó hiểu quá vui lòng liên hệ ADMIN qua:FB:https://www.facebook.com/100018277053087.\nXin cảm ơn!
+utils.throwError= » Dùng lệnh sai rồi bạn ơi vui lòng sử dụng %1help %2 để biết thêm hướng dẫn sử dụng bot.\nNếu bạn thấy khó hiểu quá vui lòng liên hệ ADMIN qua:FB:https://www.facebook.com/61573211038362.\nXin cảm ơn!
