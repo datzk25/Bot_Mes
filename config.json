@@ -5,7 +5,7 @@
     "MAINTENANCE_MODE": false,
     "iconUnsend": {
         "status": true,
-        "icon": "❤"
+        "icon": "😡"
     },
     "notiGroup": false,
     "NOTIFICATION": true,
@@ -14,7 +14,7 @@
     "eventDisabled": [],
     "autoClean": true,
     "ACCESSTOKEN": "",
-    "BOTNAME": "[ Code ] Tiến Đạt",
+    "BOTNAME": "Tiến Đạt",
     "AMDIN_NAME": "Có lỗi báo mình fix qua link bên dưới:",
     "FACEBOOK_ADMIN": "https://www.facebook.com/61573211038362",
     "PREFIX": ".",
