@@ -1,6 +1,6 @@
 const fs = require("fs-extra");
 module.exports.config = {
-    name: "chich",
+    name: "chichdien",
     version: "1.0.0",
     hasPermssion: 1, 
     credits: "Niio-team (CThinh)",
