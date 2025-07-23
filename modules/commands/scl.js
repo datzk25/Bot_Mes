@@ -1,4 +1,4 @@
-﻿const axios = require('axios');
+const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs-extra');
 const moment = require('moment-timezone');
@@ -97,7 +97,7 @@ module.exports.run = async function ({ api, event, args }) {
       return `\n${index + 1}. 👤 Tên: ${item.artist}\n📜 Tiêu đề: ${item.title}\n⏳ Thời lượng: ${item.timestamp} giây`;
     });
 
-    const listMessage = `📝 Danh sách tìm kiếm của từ khóa: ${query}\n${messages.join("\n")}\n\n📌 Reply theo STT tương ứng để tải nhạc`;
+    const listMessage = `📝 Danh sách tìm kiếm của từ khóa: ${query}\n${messages.join("\n")}\n\n📌 Reply (phản hồi) theo STT tương ứng để tải nhạc`;
 
     api.sendMessage(listMessage, event.threadID, (error, info) => {
       global.client.handleReply.push({
@@ -142,7 +142,7 @@ setTimeout(async () => {
         fs.writeFileSync(path, Buffer.from(stream, 'binary'));
 
         api.sendMessage({
-          body: `[ SOUNDCLOUD ] - MP3\n────────────────────\n[👤] → Tên: ${chosenItem.artist}\n[📝] → Tiêu đề: ${chosenItem.title}\n[⏳] → Thời lượng: ${chosenItem.timestamp} giây\n[🔈] → Lượt phát: ${chosenItem.views}\n[🗓️] → Tải tên: ${chosenItem.release}\n[📶] → Tốc độ bit: ${bit}\n────────────────────\n[⏰] → Time: ${moment.tz("Asia/Ho_Chi_Minh").format("DD/MM/YYYY || HH:mm:ss")}`,
+          body: `[ SOUNDCLOUD - MP3 ]\n────────────────────\n😀 → Tên: ${chosenItem.artist}\n🐸 → Tiêu đề: ${chosenItem.title}\n🥨 → Thời lượng: ${chosenItem.timestamp} giây\n🐧 → Lượt phát: ${chosenItem.views}\n🙃 → Tải tên: ${chosenItem.release}\n📶 → Tốc độ bit: ${bit}\n────────────────────\n🚀 → Time: ${moment.tz("Asia/Ho_Chi_Minh").format("DD/MM/YYYY || HH:mm:ss")}`,
           attachment: fs.createReadStream(path)
         }, tid, () => {
           setTimeout(() => {
