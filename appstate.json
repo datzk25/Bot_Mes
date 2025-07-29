@@ -1,7 +1,23 @@
 [
   {
-    "key": "wl_cbv",
-    "value": "v2%3Bclient_version%3A2874%3Btimestamp%3A1752865596",
+    "key": "locale",
+    "value": "vi_VN",
+    "domain": "facebook.com",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false
+  },
+  {
+    "key": "c_user",
+    "value": "100092595514661",
+    "domain": "facebook.com",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false
+  },
+  {
+    "key": "fr",
+    "value": "0jLoFEeLypsR38zqe.AWcvcVNfz_l1MJSuyjL95fo_ot3D18umMP6vwNipyLGX7wfxERI.BoeprU..AAA.0.0.Bohb1p.AWdkKyEs58l8TKmU4OhZXBjpg8g",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
@@ -16,16 +32,16 @@
     "httpOnly": false
   },
   {
-    "key": "datr",
-    "value": "HJt6aKWx9AjDBLshxQWYc2xG",
+    "key": "sb",
+    "value": "1Jp6aMwa8doi32UPmTb--E9Q",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
     "httpOnly": false
   },
   {
-    "key": "sb",
-    "value": "1Jp6aMwa8doi32UPmTb--E9Q",
+    "key": "datr",
+    "value": "HJt6aKWx9AjDBLshxQWYc2xG",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
@@ -40,46 +56,6 @@
     "httpOnly": false
   },
   {
-    "key": "vpd",
-    "value": "v1%3B667x375x2",
-    "domain": "facebook.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false
-  },
-  {
-    "key": "pas",
-    "value": "100092595514661%3AuFyaY2HIkh",
-    "domain": "facebook.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false
-  },
-  {
-    "key": "fr",
-    "value": "0jLoFEeLypsR38zqe.AWco87eoBM48ZmpzFWx_AD8joHe2Z8zN05Ni7p063VTHgQaWb7I.BoeprU..AAA.0.0.Boe-6S.AWfH0iiGqzi0XR9v1u2tzgQSFDo",
-    "domain": "facebook.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false
-  },
-  {
-    "key": "locale",
-    "value": "vi_VN",
-    "domain": "facebook.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false
-  },
-  {
-    "key": "fbl_st",
-    "value": "100627928%3BT%3A29214426",
-    "domain": "facebook.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false
-  },
-  {
     "key": "ps_n",
     "value": "1",
     "domain": "facebook.com",
@@ -88,8 +64,8 @@
     "httpOnly": false
   },
   {
-    "key": "c_user",
-    "value": "100092595514661",
+    "key": "pas",
+    "value": "100092595514661%3AuFyaY2HIkh",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
