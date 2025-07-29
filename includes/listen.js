@@ -72,18 +72,6 @@ module.exports = function ({ api, models }) {
   })();
 
   const admin = config.ADMINBOT;
-  logger.loader("┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-  for (let i = 0; i <= admin.length - 1; i++) {
-    dem = i + 1;
-    logger.loader(` ID ADMIN ${dem}: ${!admin[i] ? "Trống" : admin[i]}`);
-  }
-  logger.loader(` ID BOT: ${api.getCurrentUserID()}`);
-  logger.loader(` PREFIX: ${global.config.PREFIX}`);
-  logger.loader(
-    ` NAME BOT: ${!global.config.BOTNAME ? "This bot was made by Khôi" : global.config.BOTNAME}`,
-  );
-  logger.loader("┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
-
   //////dọn cache khi onbot!////////////////////////////////////////////////////////////
   const { exec } = require("child_process");
   exec("rm -fr modules/commands/cache/*.m4a");
