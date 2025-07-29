@@ -54,10 +54,6 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     const userName = await Users.getNameUser(senderID);
     const messageContent = event.body || "Ảnh/Video hoặc ký tự đặc biệt";
     console.log(
-      chalk.hex("#DEADED")(`\n╭──────────────────────────⭓\n├─ Nhóm: ${threadName}`) + "\n" +
-      chalk.hex("#C0FFEE")(`├─ User: ${userName}`) + "\n" +
-      chalk.hex("#FFC0CB")(`├─ Nội dung: ${messageContent}`) + "\n" +
-      chalk.hex("#FFFF00")(`├─ Time: ${moment.tz("Asia/Ho_Chi_Minh").format("LLLL")}\n╰──────────────────────────⭓\n`)
     );
   }
 };
