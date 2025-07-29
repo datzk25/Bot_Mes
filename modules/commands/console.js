@@ -19,8 +19,6 @@ module.exports.config = {
 };
 
 module.exports.handleEvent = async function ({ api, event, Users }) {
-  const thính = require('./../../includes/datajson/poem.json');
-  var poem = thính[Math.floor(Math.random() * thính.length)].trim();
   const { threadID, senderID } = event;
   if (senderID === global.data.botID || global.data.threadData.get(threadID)?.console === true) return;
 
