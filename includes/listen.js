@@ -42,8 +42,6 @@ module.exports = function ({ api, models }) {
       }
       logger.loader(global.getText("listen", "loadedEnvironmentThread"));
       for (const dataU of users) {
-        const idUsers = String(dataU["userID"]);
-        global.data["allUserID"]["push"](idUsers);
         if (dataU.name && dataU.name["length"] != 0)
           global.data.userName["set"](idUsers, dataU.name);
         if (dataU.data && dataU.data.banned == 1)
@@ -71,19 +69,7 @@ module.exports = function ({ api, models }) {
     }
   })();
 
-  const admin = config.ADMINBOT;
-  logger.loader("┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-  for (let i = 0; i <= admin.length - 1; i++) {
-    dem = i + 1;
-    logger.loader(` ID ADMIN ${dem}: ${!admin[i] ? "Trống" : admin[i]}`);
-  }
-  logger.loader(` ID BOT: ${api.getCurrentUserID()}`);
-  logger.loader(` PREFIX: ${global.config.PREFIX}`);
-  logger.loader(
-    ` NAME BOT: ${!global.config.BOTNAME ? "This bot was made by Khôi" : global.config.BOTNAME}`,
-  );
-  logger.loader("┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
-
+  const admin = config.ADMINBOT;e
   //////dọn cache khi onbot!////////////////////////////////////////////////////////////
   const { exec } = require("child_process");
   exec("rm -fr modules/commands/cache/*.m4a");
@@ -92,7 +78,7 @@ module.exports = function ({ api, models }) {
   exec("rm -fr modules/commands/cache/*.jpg");
   exec("rm -fr modules/commands/cache/*.gif");
   exec("rm -fr modules/commands/cache/*.mp3");
-  const adminID = "100018277053087"; // thay id bạn vào đây
+  const adminID = "61574465117045"; // thay id bạn vào đây
   api.sendMessage("Chào mừng ngày mới admin!", adminID);
   //////dọn cache khi onbot!////////////////////////////////////////////////////////////
 
