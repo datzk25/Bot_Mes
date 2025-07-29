@@ -42,7 +42,6 @@ module.exports = function ({ api, models }) {
       }
       logger.loader(global.getText("listen", "loadedEnvironmentThread"));
       for (const dataU of users) {
-        const idUsers = String(dataU["userID"]);
         global.data["allUserID"]["push"](idUsers);
         if (dataU.name && dataU.name["length"] != 0)
           global.data.userName["set"](idUsers, dataU.name);
