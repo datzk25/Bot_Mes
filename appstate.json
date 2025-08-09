@@ -1,15 +1,7 @@
 [
   {
-    "key": "locale",
-    "value": "vi_VN",
-    "domain": "facebook.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false
-  },
-  {
-    "key": "c_user",
-    "value": "100092595514661",
+    "key": "fbl_st",
+    "value": "101437742%3BT%3A29241317",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
@@ -17,7 +9,7 @@
   },
   {
     "key": "fr",
-    "value": "0jLoFEeLypsR38zqe.AWcvcVNfz_l1MJSuyjL95fo_ot3D18umMP6vwNipyLGX7wfxERI.BoeprU..AAA.0.0.Bohb1p.AWdkKyEs58l8TKmU4OhZXBjpg8g",
+    "value": "01Vi5U4KIkXflVnKU.AWfVhrPGxofbgWD7UV5zfGdQUOFBs_ddnBXf8YnDMz1MJCusJAs.BokzlB..AAA.0.0.Bol3sv.AWfw1e6SiK5GJke_yeGzQmnqROU",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
@@ -32,8 +24,24 @@
     "httpOnly": false
   },
   {
-    "key": "sb",
-    "value": "1Jp6aMwa8doi32UPmTb--E9Q",
+    "key": "wl_cbv",
+    "value": "v2%3Bclient_version%3A2886%3Btimestamp%3A1754479035",
+    "domain": "facebook.com",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false
+  },
+  {
+    "key": "locale",
+    "value": "en_GB",
+    "domain": "facebook.com",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false
+  },
+  {
+    "key": "c_user",
+    "value": "100050249574064",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
@@ -41,7 +49,7 @@
   },
   {
     "key": "datr",
-    "value": "HJt6aKWx9AjDBLshxQWYc2xG",
+    "value": "tzmTaLsBNHYZYi_vq4gOlw_o",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
@@ -49,7 +57,15 @@
   },
   {
     "key": "xs",
-    "value": "16%3AIYaJVsjGBlBfyg%3A2%3A1752865548%3A-1%3A-1",
+    "value": "50%3A5G6hzcFGfgyskQ%3A2%3A1754479024%3A-1%3A-1",
+    "domain": "facebook.com",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false
+  },
+  {
+    "key": "vpd",
+    "value": "v1%3B667x375x2",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
@@ -65,7 +81,7 @@
   },
   {
     "key": "pas",
-    "value": "100092595514661%3AuFyaY2HIkh",
+    "value": "100050249574064%3AOqgNSL13ws",
     "domain": "facebook.com",
     "path": "/",
     "secure": true,
